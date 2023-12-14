@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Auto', 'Autobus', 'Peaton']
+
+roboflow:
+  workspace: instutito-tecnolgico-de-durango
+  project: various-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/instutito-tecnolgico-de-durango/various-detection/dataset/1
